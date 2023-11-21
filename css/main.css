@@ -60,6 +60,11 @@ ol[role="list"] {
 a {
   text-decoration-skip-ink: auto;
   color: #36bf7f;
+  /* ---------- prof comment ----------
+  
+  you forgot to update your link colours!
+  
+  ---------- end prof comment ---------- */
 }
 
 a:hover,
@@ -170,6 +175,13 @@ body {
   color: #fff;
 }
 
+/* ---------- prof comment ----------
+
+Use a class to scope these styles to the navbar
+You may have multiple <header> in your website,
+so this is too general of a selector
+
+---------- end prof comment ---------- */
 header {
   background-color: var(--color-main);
   border-top: 0.5rem solid var(--color-accent);
@@ -415,6 +427,12 @@ header {
   color: var(--color-accent);
 }
 
+/* ---------- prof comment ----------
+
+this selector is too general, add a class to footer
+to scope the styles
+
+---------- end prof comment ---------- */
 footer {
   border-bottom: 0.5rem solid var(--color-accent);
 }
@@ -500,7 +518,12 @@ footer {
   h4 {
     font-size: 1.44;
   }
-
+  /* ---------- prof comment ----------
+  
+  Don't change the font-size of p,
+  it should stay at the default 1em.
+  
+  ---------- end prof comment ---------- */
   p {
     font-size: 1.2rem;
   }
@@ -539,6 +562,12 @@ footer {
     font-size: 1.563rem;
   }
 
+  /* ---------- prof comment ----------
+  
+  Don't change the font-size of p,
+  it should stay at the default 1em.
+  
+  ---------- end prof comment ---------- */
   p {
     font-size: 1.5rem;
   }

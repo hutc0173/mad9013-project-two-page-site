@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- prof comment
+      title should be just "Adventure Co."
+    -->
     <title>Adventure Co. Website Content</title>
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,6 +16,11 @@
     />
   </head>
   <body>
+
+    <!-- prof comment
+      there should be a class on the navbar so that you can scope
+      you navbar styles properly
+    -->
     <header>
       <div class="container">
         <div class="header-container">
@@ -121,6 +129,13 @@
           <h2 class="blog-container__header">Recent Blog Posts</h2>
 
           <div class="blog-container__group">
+            <!-- prof comment
+              <div class="blog-container__card"> isn't necessary.
+              Just put all of those styles directly on the <a>
+              <div> should only be added when the layout cannot
+              be achieved without it. You can definitely do it
+              with just the <a>
+            -->
             <div class="blog-container__card">
               <a href="./blog-post.html" class="blog-container__link"
                 ><h3 class="blog-container__card__content">
@@ -153,6 +168,13 @@
         </div>
       </section>
 
+      <!-- prof comment
+        closing </main> should be here
+      -->
+
+      <!-- prof comment
+        add a class to <footer> to scope styles
+      -->
       <footer>
         <div class="footer-main">
           <div class="container">
